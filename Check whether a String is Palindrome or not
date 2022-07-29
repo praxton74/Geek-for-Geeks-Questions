@@ -1,0 +1,12 @@
+	def isPalindrome(self, S):
+		# code here
+		l=len(S)
+		f=True
+		for i in range (0,l):
+		    if(S[i]!=S[l-1-i]):
+		        f=False
+		        break;
+		if(f==True):
+		    return 1
+		else:
+		    return 0
